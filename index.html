@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="style/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <title>Panda</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="container sticky-top">
+      <nav class="navbar shadow-sm navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#backpack">Backpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sub">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide orange-bg"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-7">
+                <h1>Mi Head Phones 420v</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Perspiciatis, aliquam!
+                </p>
+                <h1 class="price">1200/=</h1>
+                <button class="buy-now-btn">Buy Now</button>
+              </div>
+              <div class="col-5">
+                <img
+                  src="img/banner-images/headphone.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-7">
+                <h1>Mi Led Tv 420v</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Perspiciatis, aliquam!
+                </p>
+                <h1 class="price">1200/=</h1>
+                <button class="buy-now-btn">Buy Now</button>
+              </div>
+              <div class="col-5">
+                <img
+                  src="img/banner-images/tv.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-7">
+                <h1>Mi X Box 420v</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Perspiciatis, aliquam!
+                </p>
+                <h1 class="price">1200/=</h1>
+                <button class="buy-now-btn">Buy Now</button>
+              </div>
+              <div class="col-5">
+                <img
+                  src="img/banner-images/xbox.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container catagories">
+      <div class="row">
+        <div class="col-md-4 mb-2">
+          <div
+            class="cat1 d-flex align-items-center justify-content-between bg-gradient"
+          >
+            <h1>Watch</h1>
+            <img src="/img/categories/watch.png" alt="" />
+          </div>
+        </div>
+        <div class="col-md-4 mb-2">
+          <div class="cat2 d-flex align-items-center justify-content-between">
+            <h1>Bag</h1>
+            <img src="/img/categories/bag.png" alt="" />
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cat3 d-flex align-items-center justify-content-between">
+            <h1>Shoes</h1>
+            <img src="/img/categories/shoes.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container shoes" id="shoes">
+      <h2>Shoes</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/shoes/shoe-1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Nike 200</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <h5>150tk/=</h5>
+              <button class="buy-now-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/shoes/shoe-2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Adidas 300</h5>
+              <p class="card-text">This is a short card.</p>
+              <h5>250tk/=</h5>
+              <button class="buy-now-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/shoes/shoe-3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Supreme 3X</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <h5>350tk/=</h5>
+              <button class="buy-now-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="backpack">
+      <h2>Backpack</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/bags/bag-1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Laal</h5>
+              <h5>200taka</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="buy-now-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/bags/bag-2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Nil</h5>
+              <h5>300taka</h5>
+              <p class="card-text">
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="buy-now-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/bags/bag-3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Kala</h5>
+              <h5>250taka</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="buy-now-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container orange-bg d-flex justify-content-center align-items-center"
+      id="sub"
+    >
+      <div>
+        <h3>Let's Stay In Touch</h3>
+        <h6>Get updates on sales before everyone</h6>
+        <input class="form-control" type="text" />
+        <button class="buy-now-btn">Submit</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>© Copy Right Newaz 2021</p>
+    </footer>
+    <!-- Bootstrap -->
+    <script
+      src="/style/bootstrap/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
